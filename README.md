@@ -10,5 +10,4 @@ Button that randomizes the colored background after pushing it.
 
 Custom feature: Have the colors be any random color rather than relying on a prefilled array and 
 
-[https://i.gyazo.com/8d8eb02892294813d0f9295fe10b4038.mp4](https://i.gyazo.com/8d8eb02892294813d0f9295fe10b4038.mp4)https://i.gyazo.com/8d8eb02892294813d0f9295fe10b4038.mp4
 
