@@ -1,0 +1,57 @@
+<!--
+  Project 7: Digital Clock
+  
+  1.CSS: With google fonts, there is an import option that lets you import a 
+  font with @import. You can take that without the style <> and put it
+  straight into css to import it in.
+  
+  1b.CSS: If you do the google fonts, you will also need to include
+  the font family thing.
+
+  2: CSS / Extra: There is a site called conic styles that generate
+  colored backgrounds
+
+  3.JS: There is a JS class called Date() which stores the current date.
+  
+  4.JS: setTimeout() can be used to loop a function. you do setTimeout(functionName, interval)
+
+  5.JS: adding a window.addEventListener('load',functionName) will start the program
+  automatically once the window has been launched.
+
+  Custom Feature: Originally, the code only had day, time, and am/pm. Now, I
+  will add in the exact date instead.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Digital Clock</title>
+</head>
+
+<body>
+  <div class="container">
+    
+    <div class="digitalClock">
+      <div class="date">
+        <h2 id="monthDate">test</h1>
+        <h2 id="slash1">/</h1>
+        <h2 id="dayDate">test2</h1>
+        <h2 id="slash2">/</h2>
+        <h2 id="yearDate">test</h2>
+      </div>
+      <h1 id="day"></h1>
+      <h1 id="hour"></h1>
+      <h1 id="bar1">|</h1>
+      <h1 id="minute"></h1>
+      <h1 id="bar2">|</h1>
+      <h1 id="ampm"></h1>
+    </div>
+  </div>  
+
+  <script src="script.js"></script>
+</body>
+</html>
